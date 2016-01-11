@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>chiayi city</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="cities" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="small-city" sketch:type="MSArtboardGroup" fill="#000000">
+            <path d="M29,52.1270389 L29.9720618,58.4345593 L35.8044327,64.2559991 L31.9161854,72.99008 L51.3612715,75.9007999 L53.3053951,81.2380803 L57.1955673,86.5715182 L62.0539515,89 L66.9142606,86.0873588 L69.3453776,81.2380803 L78.0958588,74.4444793 L81.9860309,77.8412798 L90.7365121,80.7558422 L92.1955673,75.9046424 L99,67.6566421 L95.1098279,63.773761 L93.6507727,57.9542425 L87.8203267,56.4960006 L85.3872848,51.6467221 L81.0139691,48.7340809 L75.6685915,50.6764821 L71.7784194,47.2777604 L68.3733157,42.4284818 L63.5149315,40 L57.6806358,41.4582418 L44.0717703,51.1625627 L38.2374746,49.7062422 L29,52.1270389 L29,52.1270389 Z" id="chiayi-city" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
