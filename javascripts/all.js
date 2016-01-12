@@ -9,9 +9,6 @@ $('.menu-btn, .off-canvas-mask, .close-btn, .menu-list-item-title, .menu-sub-lis
 // smooth scroll
 $('.smooth-scroll-link').smoothScroll();
 
-// 程式展示區塊自動上色
-hljs.initHighlightingOnLoad();
-
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;

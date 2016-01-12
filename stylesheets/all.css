@@ -891,8 +891,8 @@ img { max-width: 100%; margin-bottom: 24px; }
 .header .header-top.is-hide { -webkit-transform: translate3d(0, -60px, 0); -moz-transform: translate3d(0, -60px, 0); -ms-transform: translate3d(0, -60px, 0); -o-transform: translate3d(0, -60px, 0); transform: translate3d(0, -60px, 0); opacity: 0; }
 .header .logo { font-size: 24px; line-height: 24px; margin-bottom: 0px; padding: 6px 0 6px 12px; float: left; }
 .header .logo a { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/guideline-logo.png?1452523876'); background-repeat: no-repeat; background-position: 50% 50%; width: 222px; height: 48px; background-image: none, url('/images/guideline-logo.svg?1452523876'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
-.header .menu-btn { position: absolute; top: 15px; right: 12px; cursor: pointer; background-color: white; color: #ccc; padding: 1px 6px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-.header .menu-btn:hover { border-color: #666; color: #666; }
+.header .menu-btn { position: absolute; top: 15px; right: 12px; cursor: pointer; background-color: white; color: #c1c1c1; border-color: #ccc; padding: 1px 6px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.header .menu-btn:hover { border-color: #777; color: #777; }
 .header .menu-btn:focus { outline: none; }
 .header .close-btn { position: absolute; top: 15px; right: 12px; cursor: pointer; border: none; background-color: transparent; color: #50b584; width: 32px; height: 32px; padding: 4px; margin: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .header .close-btn:focus { outline: none; }
@@ -963,12 +963,11 @@ img { max-width: 100%; margin-bottom: 24px; }
 .demo-block .demo-logo img { margin: 0; }
 .demo-block .demo-logo + .demo-logo { margin-top: 20px; }
 .demo-block .rectangle-gradient { margin-bottom: 24px; padding-top: 40%; background-color: #50B584; background-image: -webkit-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: -moz-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: -o-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: linear-gradient(140deg, #e7e879 0%, #50b584 87%); }
-.demo-block .share-btns { margin-top: 6px; display: block; }
-.demo-block .share-title { display: inline-block; font-size: 13px; line-height: 32px; vertical-align: text-bottom; margin-right: 6px; }
-.demo-block .fb-share-btn, .demo-block .twitter-share-btn { display: inline-block; -webkit-filter: brightness(0%); -moz-filter: brightness(0%); filter: brightness(0%); opacity: .25; }
-.demo-block .fb-share-btn:hover, .demo-block .twitter-share-btn:hover { -webkit-filter: brightness(100%); -moz-filter: brightness(100%); filter: brightness(100%); opacity: 1; }
-.demo-block .fb-share-btn { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-share-facebook.png?1452523876'); background-repeat: no-repeat; background-position: 50% 50%; width: 32px; height: 32px; background-image: none, url('/images/icon-share-facebook.svg?1452523876'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
-.demo-block .twitter-share-btn { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-share-twitter.png?1452523876'); background-repeat: no-repeat; background-position: 50% 50%; width: 32px; height: 32px; background-image: none, url('/images/icon-share-twitter.svg?1452523876'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
+.demo-block .share-btns { margin-top: 24px; display: block; }
+.demo-block .share-btn { display: inline-block; margin-right: 12px; color: #999; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; font-size: 15px; line-height: 24px; }
+.demo-block .share-btn:hover { text-decoration: none; color: #777; }
+.demo-block .share-btn:hover .share-btn-icon { color: #aaa; }
+.demo-block .share-btn-icon { display: inline-block; position: relative; top: 2px; margin-right: 5px; font-size: 19px; color: #ccc; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
 @media (min-width: 640px) { .demo-block { margin-top: 0px; margin-bottom: 0px; padding-top: 72px; }
   .demo-block .demo-block-subtitle { margin-top: -72px; padding-top: 84px; }
   .demo-block .demo-block-title + .demo-block-subtitle { padding-top: 84px; }
@@ -978,7 +977,9 @@ img { max-width: 100%; margin-bottom: 24px; }
   .demo-block .color-code { font-size: 15px; line-height: 24px; }
   .demo-block .demo-block-example { padding: 24px 24px 0 24px; }
   .demo-block .demo-block-example > *:last-child { margin-bottom: 24px; }
-  .demo-block .demo-block-example.taiwan-icon { padding: 36px 36px 0 36px; } }
+  .demo-block .demo-block-example.taiwan-icon { padding: 36px 36px 0 36px; }
+  .demo-block .share-btn { margin-right: 16px; }
+  .demo-block .share-btn-icon { font-size: 19px; margin-right: 5px; top: 2px; } }
 
 .highlight .hljs, .highlight .hljs-subst { color: #444; }
 .highlight .hljs-built_in, .highlight .hljs-literal, .highlight .hljs-bullet, .highlight .hljs-code, .highlight .hljs-addition { color: #1F811F; }
