@@ -256,8 +256,6 @@ donutChart = function(){
     }).attr({
       "d": arc
     }).call(chrt.foregroundStyle);
-    console.log(
-    chrt.fontSize);
     number = chrt.svg.append("text").text(function(){
       if (chrt.textFunc) {
         return chrt.textFunc(0);
@@ -1266,7 +1264,6 @@ i = -1;
     });
   }
 })();
-// clock = setInterval(tick, 3000);
 
 // 開始圖表繪製
 var chart_start = setInterval(tick, 3000);

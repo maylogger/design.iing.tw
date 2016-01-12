@@ -969,7 +969,7 @@ img { max-width: 100%; margin-bottom: 24px; }
 .demo-block .share-btn:hover { text-decoration: none; color: #777; }
 .demo-block .share-btn:hover .share-btn-icon { color: #aaa; }
 .demo-block .share-btn-icon { display: inline-block; position: relative; top: 2px; margin-right: 5px; font-size: 19px; color: #ccc; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
-@media (min-width: 640px) { .demo-block { margin-top: 0px; margin-bottom: 0px; padding-top: 72px; }
+@media (min-width: 640px) { .demo-block { margin-top: -24px; margin-bottom: 0px; padding-top: 96px; }
   .demo-block .demo-block-subtitle { margin-top: -72px; padding-top: 84px; }
   .demo-block .demo-block-title + .demo-block-subtitle { padding-top: 84px; }
   .demo-block .demo-block-text { font-size: 16px; line-height: 24px; }
