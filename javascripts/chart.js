@@ -1011,10 +1011,10 @@ barChart = function(){
 childrenPercent = _.map(function(it){
   return {
     "languageText": "客家人的下一代",
-    "identity": it <= 57
+    "identity": it <= 39
       ? "自認是客家人 57%"
-      : it <= 57 + 8 ? "不知道 8%" : "自認不是 35%",
-    "language": it <= 50 ? "不會講客家語 50%" : "會講客家語 50%",
+      : it <= 45 ? "不知道 8%" : "自認不是 35%",
+    "language": it <= 35 ? "不會講客家語 50%" : "會講客家語 50%",
     "value": 1,
     "color": function(it){
       return it[~~(Math.random() * 6)];
@@ -1022,7 +1022,7 @@ childrenPercent = _.map(function(it){
     ['#88C8AB', '#89C693', '#50B584', '#55B36C', '#A7CD6B', '#E7E879'])
   };
 })(
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]);
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70]);
 forceChildren = forceChart().container('.chart-force').data(childrenPercent).labelYOffset(150);
 forceChildren();
 listForce = [
@@ -1040,21 +1040,21 @@ secDonut = null;
 (firstTick = function(){
   hourDonut = donutChart().data({
     "total": 100,
-    "value": 0
+    "value": 2
   }).container('#donut1').textFunc(function(it){
     return it.toFixed(0) + " %";
   }).ease("bounce");
   hourDonut().draw();
   minDonut = donutChart().data({
     "total": 100,
-    "value": 0
+    "value": 2
   }).container('#donut2').textFunc(function(it){
     return it.toFixed(0) + " %";
   }).ease("bounce");
   minDonut().draw();
   secDonut = donutChart().data({
     "total": 100,
-    "value": 0
+    "value": 2
   }).container('#donut3').textFunc(function(it){
     return it.toFixed(0) + " %";
   }).ease("bounce");
@@ -1223,23 +1223,23 @@ i = -1;
 
   if (i % 2 === 1) {
     hourDonut.update({
-      "value": 0
+      "value": useround(1,50)
     });
     minDonut.update({
-      "value": 0
+      "value": useround(50,99)
     });
     secDonut.update({
-      "value": 0
+      "value": useround(1,50)
     });
   } else if (i % 2 === 0) {
     hourDonut.update({
-      "value": 80
+      "value": useround(50,99)
     });
     minDonut.update({
-      "value": 20
+      "value": useround(1,50)
     });
     secDonut.update({
-      "value": 30
+      "value": useround(50,99)
     });
   }
 
@@ -1291,4 +1291,8 @@ function curry$(f, bound){
     } : f;
   };
   return _curry();
+}
+
+function useround(min,max) {
+  return Math.round(Math.random()*(max-min)+min);
 }
