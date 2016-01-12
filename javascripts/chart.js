@@ -1226,20 +1226,20 @@ i = -1;
       "value": useround(1,50)
     });
     minDonut.update({
-      "value": useround(50,99)
+      "value": useround(50,90)
     });
     secDonut.update({
       "value": useround(1,50)
     });
   } else if (i % 2 === 0) {
     hourDonut.update({
-      "value": useround(50,99)
+      "value": useround(50,90)
     });
     minDonut.update({
       "value": useround(1,50)
     });
     secDonut.update({
-      "value": useround(50,99)
+      "value": useround(50,90)
     });
   }
 
