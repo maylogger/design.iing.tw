@@ -920,7 +920,7 @@ img { max-width: 100%; margin-bottom: 24px; }
 .off-canvas.is-open-menu .off-canvas-menu { -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
 .off-canvas.is-open-menu .off-canvas-mask { visibility: visible; opacity: 1; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; transition: opacity 0.5s; }
 
-.guideline-cover { position: relative; margin: 0 auto 24px; max-width: 1440px; }
+.guideline-cover { position: relative; margin: 0 auto 24px; max-width: 1440px; background-color: #50B584; background-image: -webkit-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: -moz-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: -o-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: linear-gradient(140deg, #e7e879 0%, #50b584 87%); }
 .guideline-cover:before { content: ''; display: block; width: 100%; padding-top: 50%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; background-position: center; background-image: url("/images/guideline-cover.jpg"); }
 @media (min-width: 640px) { .guideline-cover:before { padding-top: 40%; } }
 @media (min-width: 960px) { .guideline-cover:before { padding-top: 32.5%; } }
