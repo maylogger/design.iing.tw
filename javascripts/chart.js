@@ -1265,19 +1265,43 @@ i = -1;
   }
 })();
 
-// 開始圖表繪製
-var chart_start = setInterval(tick, 3000);
-var chart_states = 1;
-$(window).blur(function(){
-  clearInterval(chart_start);
-  chart_states = 0;
-});
-$(window).focus(function(){
-  if (chart_states != 1) {
+// 開始圖表繪製（搭配 waypoint.js）
+var chart_start;
+var chart_states = 0; // 紀錄 chart 是否啟動：0 代表未啟動，1 代表已啟動
+var waypoint_state = 0; // 紀錄圖表展示區塊是否在可視範圍內： 0 代表不再可視範圍，1 代表在可視範圍
+var window_state = 1; // 紀錄視窗是否使用者主要執行視窗：0 代表不是使用者主要執行視窗，1 代表為主要執行視窗
+var stopChart = function(){
+  if (chart_states == 1) {
+    clearInterval(chart_start);
+    chart_states = 0;
+  }
+}
+var srartChart = function(){
+  if (chart_states == 0 && waypoint_state == 1 && window_state == 1) {
     chart_start = setInterval(tick, 3000);
     chart_states = 1;
   }
+}
+$(window).blur(function(){
+  window_state = 0;
+  stopChart();
 });
+$(window).focus(function(){
+  window_state = 1;
+  srartChart();
+});
+var waypoints = $('#chart').waypoint({
+  handler: function(direction) {
+    if (direction == "down") {
+      waypoint_state = 1;
+      srartChart();
+    } else {
+      waypoint_state = 0;
+      stopChart();
+    }
+  },
+  offset: '90%'
+})
 
 function curry$(f, bound){
   var context,
