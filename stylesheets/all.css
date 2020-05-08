@@ -189,47 +189,47 @@ img { max-width: 100%; margin-bottom: 24px; }
 
 [class^="icon-map-"], [class*=" icon-map-"] { display: block; text-indent: 110%; white-space: nowrap; overflow: hidden; background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; background-repeat: no-repeat; width: 128px; height: 128px; border: 1px dashed #ccc; }
 
-.icon-map-changhua { background-image: url('/images/map-black/changhua.png?1452574571'); background-image: none, url('/images/map-black/changhua.svg?1452574571'); }
+.icon-map-changhua { background-image: url('../images/map-black/changhua.png'); background-image: none, url('../images/map-black/changhua.svg'); }
 
-.icon-map-chiayi { background-image: url('/images/map-black/chiayi.png?1452574571'); background-image: none, url('/images/map-black/chiayi.svg?1452574571'); }
+.icon-map-chiayi { background-image: url('../images/map-black/chiayi.png'); background-image: none, url('../images/map-black/chiayi.svg'); }
 
-.icon-map-chiayicity { background-image: url('/images/map-black/chiayicity.png?1452574571'); background-image: none, url('/images/map-black/chiayicity.svg?1452574571'); }
+.icon-map-chiayicity { background-image: url('../images/map-black/chiayicity.png'); background-image: none, url('../images/map-black/chiayicity.svg'); }
 
-.icon-map-hsinchu { background-image: url('/images/map-black/hsinchu.png?1452574571'); background-image: none, url('/images/map-black/hsinchu.svg?1452574571'); }
+.icon-map-hsinchu { background-image: url('../images/map-black/hsinchu.png'); background-image: none, url('../images/map-black/hsinchu.svg'); }
 
-.icon-map-hsinchucity { background-image: url('/images/map-black/hsinchucity.png?1452574571'); background-image: none, url('/images/map-black/hsinchucity.svg?1452574571'); }
+.icon-map-hsinchucity { background-image: url('../images/map-black/hsinchucity.png'); background-image: none, url('../images/map-black/hsinchucity.svg'); }
 
-.icon-map-hualien { background-image: url('/images/map-black/hualien.png?1452574571'); background-image: none, url('/images/map-black/hualien.svg?1452574571'); }
+.icon-map-hualien { background-image: url('../images/map-black/hualien.png'); background-image: none, url('../images/map-black/hualien.svg'); }
 
-.icon-map-kaohsiung { background-image: url('/images/map-black/kaohsiung.png?1452574571'); background-image: none, url('/images/map-black/kaohsiung.svg?1452574571'); }
+.icon-map-kaohsiung { background-image: url('../images/map-black/kaohsiung.png'); background-image: none, url('../images/map-black/kaohsiung.svg'); }
 
-.icon-map-keelungcity { background-image: url('/images/map-black/keelungcity.png?1452574571'); background-image: none, url('/images/map-black/keelungcity.svg?1452574571'); }
+.icon-map-keelungcity { background-image: url('../images/map-black/keelungcity.png'); background-image: none, url('../images/map-black/keelungcity.svg'); }
 
-.icon-map-miaoli { background-image: url('/images/map-black/miaoli.png?1452574571'); background-image: none, url('/images/map-black/miaoli.svg?1452574571'); }
+.icon-map-miaoli { background-image: url('../images/map-black/miaoli.png'); background-image: none, url('../images/map-black/miaoli.svg'); }
 
-.icon-map-nantou { background-image: url('/images/map-black/nantou.png?1452574571'); background-image: none, url('/images/map-black/nantou.svg?1452574571'); }
+.icon-map-nantou { background-image: url('../images/map-black/nantou.png'); background-image: none, url('../images/map-black/nantou.svg'); }
 
-.icon-map-newtaipeicity { background-image: url('/images/map-black/newtaipeicity.png?1452574571'); background-image: none, url('/images/map-black/newtaipeicity.svg?1452574571'); }
+.icon-map-newtaipeicity { background-image: url('../images/map-black/newtaipeicity.png'); background-image: none, url('../images/map-black/newtaipeicity.svg'); }
 
-.icon-map-penghu { background-image: url('/images/map-black/penghu.png?1452574571'); background-image: none, url('/images/map-black/penghu.svg?1452574571'); }
+.icon-map-penghu { background-image: url('../images/map-black/penghu.png'); background-image: none, url('../images/map-black/penghu.svg'); }
 
-.icon-map-pingtung { background-image: url('/images/map-black/pingtung.png?1452574571'); background-image: none, url('/images/map-black/pingtung.svg?1452574571'); }
+.icon-map-pingtung { background-image: url('../images/map-black/pingtung.png'); background-image: none, url('../images/map-black/pingtung.svg'); }
 
-.icon-map-taichung { background-image: url('/images/map-black/taichung.png?1452574571'); background-image: none, url('/images/map-black/taichung.svg?1452574571'); }
+.icon-map-taichung { background-image: url('../images/map-black/taichung.png'); background-image: none, url('../images/map-black/taichung.svg'); }
 
-.icon-map-tainan { background-image: url('/images/map-black/tainan.png?1452574571'); background-image: none, url('/images/map-black/tainan.svg?1452574571'); }
+.icon-map-tainan { background-image: url('../images/map-black/tainan.png'); background-image: none, url('../images/map-black/tainan.svg'); }
 
-.icon-map-taipei { background-image: url('/images/map-black/taipei.png?1452574571'); background-image: none, url('/images/map-black/taipei.svg?1452574571'); }
+.icon-map-taipei { background-image: url('../images/map-black/taipei.png'); background-image: none, url('../images/map-black/taipei.svg'); }
 
-.icon-map-taitung { background-image: url('/images/map-black/taitung.png?1452574571'); background-image: none, url('/images/map-black/taitung.svg?1452574571'); }
+.icon-map-taitung { background-image: url('../images/map-black/taitung.png'); background-image: none, url('../images/map-black/taitung.svg'); }
 
-.icon-map-taiwan { background-image: url('/images/map-black/taiwan.png?1452574571'); background-image: none, url('/images/map-black/taiwan.svg?1452574571'); }
+.icon-map-taiwan { background-image: url('../images/map-black/taiwan.png'); background-image: none, url('../images/map-black/taiwan.svg'); }
 
-.icon-map-taoyuan { background-image: url('/images/map-black/taoyuan.png?1452574571'); background-image: none, url('/images/map-black/taoyuan.svg?1452574571'); }
+.icon-map-taoyuan { background-image: url('../images/map-black/taoyuan.png'); background-image: none, url('../images/map-black/taoyuan.svg'); }
 
-.icon-map-yilan { background-image: url('/images/map-black/yilan.png?1452574571'); background-image: none, url('/images/map-black/yilan.svg?1452574571'); }
+.icon-map-yilan { background-image: url('../images/map-black/yilan.png'); background-image: none, url('../images/map-black/yilan.svg'); }
 
-.icon-map-yunlin { background-image: url('/images/map-black/yunlin.png?1452574571'); background-image: none, url('/images/map-black/yunlin.svg?1452574571'); }
+.icon-map-yunlin { background-image: url('../images/map-black/yunlin.png'); background-image: none, url('../images/map-black/yunlin.svg'); }
 
 .btn { display: inline-block; margin-bottom: 0; padding: 4px 22px; border: 2px solid #dddddd; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; font-size: 15px; line-height: 24px; background-image: none; text-align: center; text-shadow: none; cursor: pointer; outline: none; white-space: nowrap; -webkit-user-select: none; -moz-user-select: none; user-select: none; color: #444444; background-color: #dddddd; -webkit-transition: border 0.25s, background-color 0.25s, color 0.25s; -moz-transition: border 0.25s, background-color 0.25s, color 0.25s; -o-transition: border 0.25s, background-color 0.25s, color 0.25s; transition: border 0.25s, background-color 0.25s, color 0.25s; }
 .btn:hover { text-decoration: none; color: #444444; border-color: #d0d0d0; background-color: #d0d0d0; }
@@ -267,7 +267,7 @@ img { max-width: 100%; margin-bottom: 24px; }
 .form-control { margin: 0; padding: 0; border: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; min-height: 36px; padding: 4px 9px; border: 2px solid #ddd; border-radius: 5px; -webkit-appearance: none; -moz-appearance: none; appearance: none; -webkit-transition: border-color 0.25s; -moz-transition: border-color 0.25s; -o-transition: border-color 0.25s; transition: border-color 0.25s; }
 .form-control:focus { outline: none; border-color: #50B584; }
 
-.form-select { position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; vertical-align: top; height: 36px; margin: 0 6px 6px 0; padding: 0 30px 0 9px; line-height: 32px; border: 2px solid #dddddd; border-radius: 5px; background-color: white; background-image: url('/images/down.png?1452574571'); background-image: none, url('/images/down.svg?1452574571'); background-repeat: no-repeat; background-position: right 11px; -webkit-transition: border-color 0.25s; -moz-transition: border-color 0.25s; -o-transition: border-color 0.25s; transition: border-color 0.25s; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.form-select { position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; vertical-align: top; height: 36px; margin: 0 6px 6px 0; padding: 0 30px 0 9px; line-height: 32px; border: 2px solid #dddddd; border-radius: 5px; background-color: white; background-image: url('../images/down.png'); background-image: none, url('../images/down.svg'); background-repeat: no-repeat; background-position: right 11px; -webkit-transition: border-color 0.25s; -moz-transition: border-color 0.25s; -o-transition: border-color 0.25s; transition: border-color 0.25s; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 .form-select:focus { outline: none; border-color: #50b584; }
 .form-select.tiny { max-width: 60px; }
 .form-select.small { max-width: 160px; }
@@ -888,7 +888,7 @@ img { max-width: 100%; margin-bottom: 24px; }
 .header .header-top:after { content: ""; display: table; clear: both; }
 .header .header-top.is-hide { -webkit-transform: translate3d(0, -60px, 0); -moz-transform: translate3d(0, -60px, 0); -ms-transform: translate3d(0, -60px, 0); -o-transform: translate3d(0, -60px, 0); transform: translate3d(0, -60px, 0); opacity: 0; }
 .header .logo { font-size: 24px; line-height: 24px; margin-bottom: 0px; padding: 6px 0 6px 12px; float: left; }
-.header .logo a { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/guideline-logo.png?1452574571'); background-repeat: no-repeat; background-position: 50% 50%; width: 222px; height: 48px; background-image: none, url('/images/guideline-logo.svg?1452574571'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
+.header .logo a { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('../images/guideline-logo.png'); background-repeat: no-repeat; background-position: 50% 50%; width: 222px; height: 48px; background-image: none, url('../images/guideline-logo.svg'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
 .header .menu-btn { position: absolute; top: 15px; right: 12px; cursor: pointer; background-color: transparent; color: #c1c1c1; border-color: #ccc; padding: 1px 6px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .header .menu-btn:hover { border-color: #777; color: #777; }
 .header .menu-btn:focus { outline: none; }
@@ -921,7 +921,7 @@ img { max-width: 100%; margin-bottom: 24px; }
 .off-canvas.is-open-menu .off-canvas-mask { visibility: visible; opacity: 1; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; transition: opacity 0.5s; }
 
 .guideline-cover { position: relative; margin: 0 auto 24px; max-width: 1440px; background-color: #50B584; background-image: -webkit-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: -moz-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: -o-linear-gradient(140deg, #e7e879 0%, #50b584 87%); background-image: linear-gradient(140deg, #e7e879 0%, #50b584 87%); }
-.guideline-cover:before { content: ''; display: block; width: 100%; padding-top: 50%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; background-position: center; background-image: url("/images/guideline-cover.jpg"); }
+.guideline-cover:before { content: ''; display: block; width: 100%; padding-top: 50%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; background-position: center; background-image: url("../images/guideline-cover.jpg"); }
 @media (min-width: 640px) { .guideline-cover:before { padding-top: 40%; } }
 @media (min-width: 960px) { .guideline-cover:before { padding-top: 32.5%; } }
 @media (min-width: 960px) { .guideline-cover:before { padding-top: 25%; } }
@@ -946,10 +946,10 @@ img { max-width: 100%; margin-bottom: 24px; }
 .demo-block .demo-block-example-tip { margin-top: -18px; margin-bottom: 24px; font-size: 13px; line-height: 18px; }
 .demo-block .site-logo { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-top: 100%; width: 100%; height: 0; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; background-position: center; background-repeat: no-repeat; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; background-color: #f7f7f7; margin-bottom: 6px; }
 .demo-block .site-logo img { display: block; margin-bottom: 0px; }
-.demo-block .site-logo_donate { background-image: url("/images/footer/logo-donate-256.png"); background-image: none, url("/images/footer/logo-donate-256.svg"); }
-.demo-block .site-logo_melody { background-image: url("/images/footer/logo-melody-256.png"); background-image: none, url("/images/footer/logo-melody-256.svg"); }
-.demo-block .site-logo_hope { background-image: url("/images/footer/logo-hope-256.png"); background-image: none, url("/images/footer/logo-hope-256.svg"); }
-.demo-block .site-logo_main { background-image: url("/images/footer/logo-main-256.png"); background-image: none, url("/images/footer/logo-main-256.svg"); }
+.demo-block .site-logo_donate { background-image: url("../images/footer/logo-donate-256.png"); background-image: none, url("../images/footer/logo-donate-256.svg"); }
+.demo-block .site-logo_melody { background-image: url("../images/footer/logo-melody-256.png"); background-image: none, url("../images/footer/logo-melody-256.svg"); }
+.demo-block .site-logo_hope { background-image: url("../images/footer/logo-hope-256.png"); background-image: none, url("../images/footer/logo-hope-256.svg"); }
+.demo-block .site-logo_main { background-image: url("../images/footer/logo-main-256.png"); background-image: none, url("../images/footer/logo-main-256.svg"); }
 .demo-block .site-name { text-align: center; font-size: 15px; line-height: 24px; color: #444; margin-bottom: 12px; }
 .demo-block .demo-icon-list { margin: 0; padding: 0; border: 0; list-style: none; margin: 0 -6px; }
 .demo-block .demo-icon-list:after { content: ""; display: table; clear: both; }
